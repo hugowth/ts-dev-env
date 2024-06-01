@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@types/lodash": "^4.17.4",
+    "@types/node": "^20.13.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "name": "ts-dev-env",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpileOnly index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugowth/ts-dev-env.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugowth/ts-dev-env/issues"
+  },
+  "homepage": "https://github.com/hugowth/ts-dev-env#readme"
+}
