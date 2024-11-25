@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@types/lodash": "^4.17.13",
-    "@types/node": "^22.8.1",
+    "@types/node": "^22.9.3",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.6.3"
   },
